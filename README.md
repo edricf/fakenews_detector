@@ -1,4 +1,4 @@
-# fakenews detector
+# Fakenews Detector
 LSTM, Flask, NLP
 
 See and Test out the App here:
