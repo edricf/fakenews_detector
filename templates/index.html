@@ -3,6 +3,7 @@
 <head>
 	<title>Fake News Detector</title>
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div id='main'>
@@ -47,6 +48,13 @@
 	<h2 style="color:red;"> Fake News! </h2>
 	{% endif %}
 	</div>
+
+	<br>
+	<footer id='footer'>
+		<a href="https://github.com/edricf/fakenews_detector">
+		<button style="font-size:20px"> See Code & Analysis: <i class="fa fa-github"></i></button>
+		</a>
+	</footer>
 	
 </div>
 </body>
